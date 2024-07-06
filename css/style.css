@@ -1,0 +1,123 @@
+.header {
+  /* background-image: url(../images/party.jpg); */
+  background-image: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(255, 0, 0, 0.5) 0%
+    ),
+    url(../images/party.jpg);
+  background-position: bottom;
+  background-size: cover;
+  height: 70vh;
+}
+
+/* side menu */
+.my-container div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.menu {
+    width: 180px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -182px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    transition: all 150ms ease-in;
+}
+
+.menu i {
+    color: white;
+    cursor: pointer;
+    transition: all 150ms ease-in;
+}
+
+.menu a:hover , i:hover {
+    color: red;
+}
+
+.side-menu {
+  cursor: pointer;
+  top: 300px;
+  left: 0px;
+}
+/* side menu */
+
+h1 {
+  font-size: 60px;
+}
+
+.my-accordion {
+  margin-block: 70px;
+}
+
+.my-accordion h3 {
+  background-color: #e68285;
+  color: white;
+  margin: 0;
+  padding-block: 10px;
+  cursor: pointer;
+}
+
+.my-accordion div {
+  background-color: #cccccc;
+  padding: 10px;
+  display: none;
+}
+
+.countdown {
+  background-image: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(255, 0, 0, 0.5) 0%
+    ),
+    url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.countdown .my-card {
+  padding-block: 20px;
+}
+
+.countdown .my-card div {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.join-us {
+  margin-block: 50px;
+}
+
+.join-us h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.join-us .buttons a {
+  color: gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  transition: all 200ms;
+}
+
+.join-us .buttons a:hover {
+  background-color: red;
+  color: white;
+}
+
+.join-us #textarea {
+  min-height: 70px;
+  max-height: 120px;
+}
